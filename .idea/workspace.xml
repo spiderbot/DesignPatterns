@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d72b5ef-878d-4aaf-9f63-a810bc5d4a00" name="Changes" comment="creational design patterns">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/behavioural/strategy/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/behavioural/strategy/Collections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/behavioural/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/behavioural/strategy/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/behavioural/strategy/SortStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/creational/builder/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/creational/builder/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/creational/builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/creational/builder/IBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/creational/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/decorator/ApplicationStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/decorator/BaseCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/decorator/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/decorator/DeliveryFeeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/decorator/DiscountDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/decorator/GSTDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/decorator/UserCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/piyush/joshi/designpatterns/decorator/UserCartDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,33 +36,53 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2g0krdWaodiDh0nOSoewvekdmiF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ApplicationStarter.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.org.piyush.joshi.designpatterns.creational.factory.Main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.piyush.joshi.designpatterns.decorator" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.piyush.joshi.designpatterns.behavioural.strategy" />
       <recent name="org.piyush.joshi.designpatterns.creational.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.piyush.joshi.designpatterns.creational.factory.Main">
+  <component name="RunManager" selected="Application.ApplicationStarter">
+    <configuration name="ApplicationStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.piyush.joshi.designpatterns.decorator.ApplicationStarter" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.piyush.joshi.designpatterns.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.piyush.joshi.designpatterns.creational.singleton.Main" />
       <module name="DesignPatterns" />
@@ -92,17 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApplicationStarter" />
         <item itemvalue="Application.org.piyush.joshi.designpatterns.creational.factory.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
